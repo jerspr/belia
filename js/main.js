@@ -3,7 +3,7 @@ $(document).ready(function(){
         snapToChildren: true,
         desktopClickDrag: true,
         keyboardControls: false,
-        infiniteSlider: false,
+        infiniteSlider: true,
         
         navPrevSelector: $("#cuponslider .left_icon"),
         navNextSelector: $("#cuponslider .right_icon"),
