@@ -180,15 +180,15 @@ body{font-family: "bebas_neueregular",arial;}
 .nav_list ul li{float: left;margin-left: 10px;background: url(../img/list.png) no-repeat;background-position: left;}
 .nav_list ul li a{color: #fff;font-size: 16px;text-transform: uppercase;padding-left: 13px;letter-spacing: 0.5px;}
 .nav_list ul li:first-child{margin-left: 0;background: none;}
-.grid_one .info_cupon{position: absolute;bottom: 0px;left: 0px;height: auto;background: rgba(255,255,255,0.90);}
-.info_cupon h2{text-transform: uppercase;font-size: 25px;color: #00659d;text-align: left;margin: 0;line-height: 100%;margin-bottom: 2px;margin-left: 70px;margin-right: 10px;width: 115px;}
-.info_cupon h4{text-transform: uppercase;color: #32a600;font-size: 75px;text-align: left;margin: 0;line-height: 100%;margin-left: 70px;margin-right: 10px;width: 115px;margin-top: 10px;}
-.info_cupon h5{text-transform: uppercase;font-size: 18px;color: #3b3b3b;text-align: left;margin: 0;line-height: 100%;margin-left: 70px;margin-right: 10px;width: 115px;margin-bottom: 15px;}
-.grid_one .info_cupon_right{position: absolute;bottom: 0px;right: 0px;top: 0;width: 150px;background: rgba(255,255,255,0.90);padding: 20px 20px 0 20px}
+.grid_one .info_cupon{position: absolute;bottom: 0px;height: auto;background: rgba(255,255,255,0.60);width: 135px;margin-left: 70px}
+.info_cupon h2{text-transform: uppercase;font-size: 25px;color: #00659d;text-align: left;margin: 0;line-height: 100%;margin-bottom: 2px;margin-left: 10px;margin-right: 10px;width: 115px;}
+.info_cupon h4{text-transform: uppercase;color: #32a600;font-size: 75px;text-align: left;margin: 0;line-height: 100%;margin-left: 10px;margin-right: 10px;width: 115px;margin-top: 10px;}
+.info_cupon h5{text-transform: uppercase;font-size: 18px;color: #3b3b3b;text-align: left;margin: 0;line-height: 100%;margin-left: 10px;margin-right: 10px;width: 115px;margin-bottom: 15px;}
+.grid_one .info_cupon_right{position: absolute;bottom: 0px;right: 0px;top: 0;width: 150px;background: rgba(255,255,255,0.60);padding: 20px 20px 0 20px}
 .info_cupon_right h4{text-align: left;color: #32a600;font-size: 75px;margin: 0;line-height: 100%;}
 .info_cupon_right h2{text-align: left;font-size: 25px;margin: 0;color: #00659d;line-height: 100%;margin-bottom: 2px;}
 .info_cupon_right h5{text-align: left;font-size: 18px;margin: 0;color: #3b3b3b;}
-.grid_two .info_cupon_bottom{position: absolute;right: 0px;top: 0px;bottom: 0;background: rgba(255,255,255,0.90);width: 135px;}
+.grid_two .info_cupon_bottom{position: absolute;right: 0px;top: 0px;bottom: 0;background: rgba(255,255,255,0.60);width: 135px;}
 .info_cupon_bottom h4{font-size: 62px;color: #32a600;margin: 0;text-align: left;margin-left: 12px;margin-top: 12%;}
 .info_cupon_bottom h2{color: #00659d;font-size: 24px;line-height: 100%;padding: 0px 10px 0 10px;text-align: left;margin: 0;}
 #modalCupom .modal-content{border: 0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow: 0 0 0;-moz-box-shadow: 0 0 0;box-shadow: 0 0 0;}
@@ -200,6 +200,15 @@ body{font-family: "bebas_neueregular",arial;}
 #modalCupom .modal-body h3{color: #116ca1;font-size: 20px;text-transform: uppercase;margin: 15px 0 0 0;padding-right: 15px;}
 #modalCupom .modal-body h4{color: #3b3b3b;font-size: 16px;text-transform: uppercase;margin: 0;padding-right: 15px;}
 #modalCupom .modal-body p{color: #3b3b3b;font-size: 12px;line-height: 120%;font-family: arial;padding: 10px 15px 20px 15px;margin-bottom: 0;}
+
+.wrapper-960{width: 960px;margin: 0 auto;padding: 50px 0 80px 0;}
+.wrapper-960 hr{border: 1px solid #ccc}
+.wrapper-960 h2{font-family: arial;}
+.wrapper-960 p{font-family: arial;line-height: 130%;margin-bottom: 20px;font-size: 16px;}
+.page .fix_header{position: inherit;}
+.page .wrapper{position: inherit;}
+.page .fix_footer{position: inherit;}
+.wrapper-960 ol li{font-family: arial;line-height: 130%;margin-bottom: 20px;font-size: 16px;}
 
 @media (min-width: 768px){
 	.modal-dialog{width: 420px;margin: 100px auto;}
