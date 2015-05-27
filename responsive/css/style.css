@@ -283,6 +283,7 @@ a{text-decoration: none;}
 		font-size: 20px;
 	}
 	.display-img{display: none;}
+	.iosSlider .slider{height: 100%!important;}
 }
 @media (min-width: 1200px){
 	.info_cupon_right h4, .info_cupon h4{
@@ -322,7 +323,7 @@ a{text-decoration: none;}
 	}
 	.item_seg .row>div:first-child{padding-bottom: 0;}
 	.grid_one .col-md-12{padding-left: 5px;padding-right: 5px;}
-	.wrapper{padding: 0 20px;position: inherit;margin-top: 50px;margin-bottom: 35px;}
+	.wrapper{padding: 0 20px;position: inherit;margin-top: 90px;margin-bottom: 35px;}
 	.iosSlider{height: auto!important;}
 	.sliderContainer{height: auto;}
 	.iosSlider .slider{height: 1800px;}
@@ -334,4 +335,23 @@ a{text-decoration: none;}
 	html,body{width: auto;height: auto;}
 	.fix_footer{z-index: 2;}
 	.cnt_content_one .col-xs-12, .grid_two .col-xs-12{padding-bottom: 10px;}
+	.main_header{height: 90px;}
+}
+@media (max-width: 768px){
+	.main_header{height: 120px;}
+	.categoria_belia{position: absolute;bottom: 15px;right: 10px;}
+	.nav_list ul li{margin-left: 0;margin-right: 10px;}
+	.wrapper{margin-top: 120px;}
+	.info_cupon_right h4, .info_cupon h4{font-size: 45px}
+	.info_cupon_right h2, .info_cupon h2{font-size: 20px;}
+}
+@media (max-width: 480px){
+	.grid_one .col-xs-12, .grid_one .col-xs-6, .grid_two .col-xs-12, .grid_two .col-xs-6{width: 100%;}
+	.item_seg .row>div:first-child{padding-bottom: 10px;}
+	.main_header{height: 160px;}
+	.logo{left: 15px;top: 15px;}
+	.wrapper{margin-top: 160px;}
+	.left_icon, .right_icon{display: none!important;}
+	.info_cupon_right h4, .info_cupon h4{font-size: 35px}
+	.info_cupon_right h2, .info_cupon h2{font-size: 18px;}
 }
