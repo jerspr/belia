@@ -58,10 +58,11 @@ $(document).ready(function(){
         $("#condi-uso").mCustomScrollbar();
         $("#cnt_ul_dir_telf").mCustomScrollbar();
     });
-
-    var alturaH = $("#cuponslider .slider .item").height();
-    $("#cuponslider .slider").css( "height", alturaH);
-
+    
+    setTimeout(function(){
+        var alturaH = $("#cuponslider .slider .item").height();
+        $("#cuponslider .slider").css( "height", alturaH);
+    }, 500);
     $(window).resize(function(){
         var alturaH = $("#cuponslider .slider .item").height();
         $("#cuponslider .slider").css( "height", alturaH);
