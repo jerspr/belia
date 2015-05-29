@@ -363,9 +363,9 @@ a{text-decoration: none;}
 	.item_seg .img_cnt img{opacity: 0;}
 	.grid_two .img_cnt{height: 120px;}
 	.grid_two .img_cnt img{opacity: 0}
-	.main_header{height: 115px;}
-	.logo{left: 15px;top: 15px;}
-	.wrapper{margin-top: 125px;margin-bottom: 0;}
+	.main_header{height: 95px;}
+	.logo{left: 15px;top: 5px;}
+	.wrapper{margin-top: 105px;margin-bottom: 0;}
 	.left_icon, .right_icon{display: none!important;}
 	.info_cupon_right h4, .info_cupon h4{font-size: 35px}
 	.info_cupon_right h2, .info_cupon h2{font-size: 18px;}
@@ -385,11 +385,11 @@ a{text-decoration: none;}
 	.main_footer span{display: block;text-align: center;margin-left: 0;}
 	.logo{left: 50%;margin-left: -80px;}
 	.categoria_belia{display: none;}
-	.ico-menu{float: left;padding: 10px;cursor: pointer;margin-top: 40px;margin-left: 15px;}
+	.ico-menu{float: left;padding: 10px;cursor: pointer;margin-top: 28px;margin-left: 15px;}
 	.ico-menu .icon-bar{display: block;width: 30px;height: 3px;border-radius: 1px;}
 	.ico-menu .icon-bar+.icon-bar{margin-top: 4px;}
 	.ico-menu .icon-bar{background-color: #fff;}
-	.menu-prin {position: fixed;top: 115px;left: 0;right: 0;background: #333333;width: 100%;}
+	.menu-prin {position: fixed;top: 95px;left: 0;right: 0;background: #333333;width: 100%;}
 	.menu-prin ul{list-style: none;padding-left: 0px;margin-top: 5px;margin-bottom: 5px}
 	.menu-prin ul li{padding-top: 10px;border-top: 1px solid #ccc;}
 	.menu-prin ul li:first-child{border-top: 0;}
