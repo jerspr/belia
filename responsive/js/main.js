@@ -67,6 +67,17 @@ $(document).ready(function(){
         var alturaH = $("#cuponslider .slider .item").height();
         $("#cuponslider .slider").css( "height", alturaH);
     });
+
+    /*responsive*/
+    $('.ico-menu').click(function() {
+        $('.ico-menu').removeClass('onn');
+        $('.menu-prin').slideUp('normal');
+        if($(this).next().is(':hidden') == true) {
+            $(this).addClass('onn');
+            $(this).next().slideDown('normal');
+        }
+    });
+    $('.menu-prin').hide();
 });
 
 function slideChange(args) {		
